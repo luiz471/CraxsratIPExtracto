@@ -18,18 +18,23 @@ $ python3 craxsrat_ip_extractor.py /path/to/apk/folder
 ```
 remnux@siftworkstation: ~/work
 $ python3 craxsrat_ip_extractor.py apks/
-Processing apks/test2.apk
-[*] Decompiling APK...
-[*] Finding the C2 IP Address...
-[79e19ea25071787899ca633812570dfc]: 202.55.133.59
+[*] Found 3 APK file(s) in apks
 
-Processing apks/test1.apk
-[*] Decompiling APK...
+Processing apks\test1.apk
+[*] Decompiling APK: [7da41e25ccdfa60ef992a9c4846e6a6b]
 [*] Finding the C2 IP Address...
-[7da41e25ccdfa60ef992a9c4846e6a6b]: 192.168.5.143
+IP Address: 192.168.5.143
+Port: 4444
 
-Processing apks/test3.apk
-[*] Decompiling APK...
+Processing apks\test2.apk
+[*] Decompiling APK: [79e19ea25071787899ca633812570dfc]
 [*] Finding the C2 IP Address...
-[1ddc5fcd0042926c149971122f0cecbe]: seyo111.hopto.org
+IP Address: 202.55.133.59
+Port: 7771
+
+Processing apks\test3.apk
+[*] Decompiling APK: [1ddc5fcd0042926c149971122f0cecbe]
+[*] Finding the C2 IP Address...
+IP Address: seyo111.hopto.org
+Port: 3809
 ```
